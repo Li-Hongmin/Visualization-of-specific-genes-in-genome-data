@@ -1,0 +1,25 @@
+PLINK v1.90b6.16 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile pkd2
+  --extract pkd2.prune.in
+  --out pkd2.pruned
+  --recode A
+
+Hostname: namazu.mma.cs.tsukuba.ac.jp
+Working directory: /home/lihongmin/Projects/PKD_1_2
+Start time: Thu Nov 12 17:42:33 2020
+
+Random number seed: 1605170553
+31805 MB RAM detected; reserving 15902 MB for main workspace.
+2325 variants loaded from .bim file.
+2535 people (0 males, 0 females, 2535 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pkd2.pruned.nosex .
+--extract: 55 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2535 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+55 variants and 2535 people pass filters and QC.
+Note: No phenotypes present.
+--recode A to pkd2.pruned.raw ... done.
+
+End time: Thu Nov 12 17:42:33 2020

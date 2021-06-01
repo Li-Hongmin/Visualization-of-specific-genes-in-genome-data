@@ -25,3 +25,6 @@ plink --bfile pkd1 --extract pkd1.prune.in --recode A --out pkd1.pruned
 cat pkd1.pruned.raw | cut -d " " -f7- | awk 'NR>1{print}' > pkd1.pruned.geno.txt
 
 ```
+## Visualization 
+
+See [dimentionReduction.ipynb](dimentionReduction.ipynb) or [dimentionReduction.html](dimentionReduction.html).
